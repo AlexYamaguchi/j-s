@@ -173,44 +173,44 @@
   /////////////////////////////////////////////////////////////////////////
   //YEAR
   /////////////////////////////////////////////////////////////////////////
-  var counterxw = 1;
+  var counterInu = 1;
 
   ImgGallery2.onclick = function (){
-  if (counterxw == 1){
+  if (counterInu == 1){
       document.getElementById("ImgInu").src = "dog_hira.png";
       setTimeout(() => {
         document.getElementById('mySound-inu').play();
       }, 500)
-      counterxw++;
+      counterInu++;
   }
-  else if (counterxw == 2){
+  else if (counterInu == 2){
       document.getElementById("ImgInu").src = "dog.png";
       setTimeout(() => {
         document.getElementById('mySound-dog').play();
       }, 500)
-      counterxw++;
+      counterInu++;
   }
-  else if (counterxw == 3){
+  else if (counterInu == 3){
       document.getElementById("ImgInu").src = "inu.png";
-      counterxw++;
+      counterInu++;
   }
-  else if (counterxw == 4){
+  else if (counterInu == 4){
     document.getElementById("ImgInu").src = "dog_hira.png";
     setTimeout(() => {
       document.getElementById('mySound-inu').play();
     }, 500)
-    counterxw++;
+    counterInu++;
 }
-else if (counterxw == 5){
+else if (counterInu == 5){
     document.getElementById("ImgInu").src = "dog.png";
     setTimeout(() => {
       document.getElementById('mySound-dog').play();
     }, 500)
-    counterxw++;
+    counterInu++;
 }
-else if (counterxw == 6){
+else if (counterInu == 6){
     document.getElementById("ImgInu").src = "inu.png";
-    counterxw++;
+    counterInu++;
 }
   };
 
