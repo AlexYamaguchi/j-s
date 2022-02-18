@@ -175,7 +175,7 @@
   /////////////////////////////////////////////////////////////////////////
   var counterInu = 1;
 
-  ImgGallery2.onclick = function (){
+  ImgInu.onclick = function (){
   if (counterInu == 1){
       document.getElementById("ImgInu").src = "dog_hira.png";
       setTimeout(() => {
