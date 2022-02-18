@@ -45,6 +45,11 @@
   //   }
   // }
 
+
+  /////////////////////////////////////////////////////////////////////////
+  //YAMA
+  /////////////////////////////////////////////////////////////////////////
+
   var counter = 1;
 
   ImgGallery.onclick = function (){
@@ -86,6 +91,10 @@
   }
   };
 
+  /////////////////////////////////////////////////////////////////////////
+  //KAWA
+  /////////////////////////////////////////////////////////////////////////
+
   var counterx = 1;
 
   ImgGallery1.onclick = function (){
@@ -122,6 +131,9 @@
   };
 
 
+ /////////////////////////////////////////////////////////////////////////
+  //MIZU
+  /////////////////////////////////////////////////////////////////////////
   var counterxw = 1;
 
   ImgGallery2.onclick = function (){
@@ -155,6 +167,51 @@
       document.getElementById("ImgGallery2").src = "water1.png";
       counterxw==1;
   }
+  };
+
+
+  /////////////////////////////////////////////////////////////////////////
+  //YEAR
+  /////////////////////////////////////////////////////////////////////////
+  var counterxw = 1;
+
+  ImgGallery2.onclick = function (){
+  if (counterxw == 1){
+      document.getElementById("ImgInu").src = "dog_hira.png";
+      setTimeout(() => {
+        document.getElementById('mySound-inu').play();
+      }, 500)
+      counterxw++;
+  }
+  else if (counterxw == 2){
+      document.getElementById("ImgInu").src = "dog.png";
+      setTimeout(() => {
+        document.getElementById('mySound-dog').play();
+      }, 500)
+      counterxw++;
+  }
+  else if (counterxw == 3){
+      document.getElementById("ImgInu").src = "inu.png";
+      counterxw++;
+  }
+  else if (counterxw == 4){
+    document.getElementById("ImgInu").src = "dog_hira.png";
+    setTimeout(() => {
+      document.getElementById('mySound-inu').play();
+    }, 500)
+    counterxw++;
+}
+else if (counterxw == 5){
+    document.getElementById("ImgInu").src = "dog.png";
+    setTimeout(() => {
+      document.getElementById('mySound-dog').play();
+    }, 500)
+    counterxw++;
+}
+else if (counterxw == 6){
+    document.getElementById("ImgInu").src = "inu.png";
+    counterxw++;
+}
   };
 
 
