@@ -245,13 +245,14 @@ else if (counterInu == 6){
     }, 500)
     counterHon++;
 }
-else if (counterHon == 2){
+else if (counterHon == 5){
   document.getElementById("ImgHon").src = "book.png";
   setTimeout(() => {
     document.getElementById('mySound-book').play();
   }, 500)
   counterHon++;
 }
+
 else if (counterHon == 6){
     document.getElementById("ImgHon").src = "hon.png";
     counterHon++;
