@@ -214,4 +214,48 @@ else if (counterInu == 6){
 }
   };
 
+  /////////////////////////////////////////////////////////////////////////
+  //HON BOOK
+  /////////////////////////////////////////////////////////////////////////
+  var counterHon = 1;
+
+  ImgHon.onclick = function (){
+  if (counterHon == 1){
+      document.getElementById("ImgHon").src = "hon_hira.png";
+      setTimeout(() => {
+        document.getElementById('mySound-hon').play();
+      }, 500)
+      counterHon++;
+  }
+  else if (counterHon == 2){
+      document.getElementById("ImgHon").src = "book.png";
+      setTimeout(() => {
+        document.getElementById('mySound-book').play();
+      }, 500)
+      counterHon++;
+  }
+  else if (counterHon == 3){
+      document.getElementById("ImgHon").src = "hon.png";
+      counterHon++;
+  }
+  else if (counterHon == 4){
+    document.getElementById("ImgHon").src = "hon_hira.png";
+    setTimeout(() => {
+      document.getElementById('mySound-hon').play();
+    }, 500)
+    counterHon++;
+}
+else if (counterHon == 2){
+  document.getElementById("ImgHon").src = "book.png";
+  setTimeout(() => {
+    document.getElementById('mySound-book').play();
+  }, 500)
+  counterHon++;
+}
+else if (counterHon == 6){
+    document.getElementById("ImgHon").src = "hon.png";
+    counterHon++;
+}
+  };
+
 
