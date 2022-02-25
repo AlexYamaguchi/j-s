@@ -252,6 +252,7 @@ else if (counterHon == 5){
   }, 500)
   counterHon++;
 }
+
 else if (counterHon == 6){
     document.getElementById("ImgHon").src = "hon.png";
     counterHon++;
